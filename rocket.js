@@ -26,3 +26,21 @@ tinggi kotak sesuai dengan nilai variable height!
 */
 
 // SKELETON CODE (Code Sample)
+
+function drawThreeColsBox(nilai) {
+    let nilaiAwal = 0;
+    for (let i = 1; i <= nilai; i++) {
+        let hasil = '';
+        for (let n = 1; n <= 3; n++) {
+            nilaiAwal++;
+            hasil += String(nilaiAwal) + ' ';
+        }
+        console.log(hasil);
+    }
+    return '';
+}
+
+const height = 3;
+console.log("Looping For Dengan Nilai Height = "+ height);
+console.log("  ")
+console.log(drawThreeColsBox(height));

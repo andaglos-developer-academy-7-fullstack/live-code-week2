@@ -26,3 +26,14 @@ Ketentuan
 =========
 Wajib menggunakan looping!
 */
+
+const height = 3;
+
+let output = '';
+
+console.log("Looping For Dengan Nilai Height = "+ height);
+console.log("  ")
+for (let i = 1; i <= height; i++) {
+    output += String(i);
+    console.log(output);
+}
