@@ -26,3 +26,35 @@ Ketentuan
 =========
 Wajib menggunakan looping!
 */
+
+var height = 3;
+var angka = '';
+for (var i = 1; i <= height; i++) {
+    angka = ''
+    for (var j = 1; j <= i; j++) {
+        angka += j
+    }
+    console.log(angka)
+}
+
+
+var height = 5;
+var angka = '';
+for (var i = 1; i <= height; i++) {
+    angka = ''
+    for (var j = 1; j <= i; j++) {
+        angka += j
+    }
+    console.log(angka)
+}
+
+
+var height = 1;
+var angka = '';
+for (var i = 1; i <= height; i++) {
+    angka = ''
+    for (var j = 1; j <= i; j++) {
+        angka += j
+    }
+    console.log(angka)
+}

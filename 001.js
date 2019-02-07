@@ -17,3 +17,29 @@ Setelah saldo mencukupi, ibu Tini dihadapkan pilihan untuk membeli jenis daging 
 - Jika saldo tidak memenuhi untuk pembelian ketiga nya, maka bu Tini akan membeli indomie. Ubah nilai ShoppingBag dengan "Indomie", dan kurangi saldo dengan nilai 10000.
 Di akhir program, tampilkan di log "Ibu Tini membeli <nilai Shopping Bag> dan sisa uang: <nilai sisa saldo>"
 */
+
+
+var nama = 'tii';
+var saldo = 10000;
+var shoopingBag = '';
+
+if (nama === '') {
+    console.log('Tidak bisa belanja. Pulang lagi deh')
+}
+if (saldo < 10000) {
+    console.log("Tidak bisa belanja. Saldo minimal 10.000.")
+}
+
+
+if (saldo > 200000) {
+    shoopingBag += 'Beef'
+}
+else if (saldo > 100000 && saldo < 200000) {
+    shoopingBag += 'Fish' + (saldo - 100000)
+} else if (saldo > 50000 && saldo < 100000) {
+    shoopingBag += 'Chicken' + (saldo - 50000)
+} else {
+    shoopingBag += 'Indomie ' + (saldo - 10000)
+}
+
+console.log('Ibu Tini membeli ' + shoopingBag + ' dan sisa uang: ' + saldo)
