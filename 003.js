@@ -22,3 +22,26 @@ Return array tersebut.
   proses: dari 0 - 15 yang habis dibagi 2: 2, 4, 6, 8, 10, 12, 14 
   output: [2, 4, 6, 8, 10, 12, 14]
 */
+
+function multiplication(num1, num2) {
+  const kali = num1 * num2;
+  return kali;
+}
+console.log(multiplication(3, 6));
+
+function powerMe(num1, num2) {
+  const pangkat = Math.pow(num1, num2);
+  return pangkat;
+}
+console.log(powerMe(2, 3));
+
+function evenSiblings(number) {
+  let genap = [];
+  for (let i = 1; i <= number; i++) {
+    if (i % 2 === 0) {
+      genap.push(i);
+    }
+  }
+  return genap;
+}
+console.log(evenSiblings(15));
