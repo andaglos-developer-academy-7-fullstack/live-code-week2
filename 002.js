@@ -26,3 +26,11 @@ Ketentuan
 =========
 Wajib menggunakan looping!
 */
+
+const height = 5;
+
+let temp = '';
+for (let i = 1; i <= height; i++) {
+    temp += String(i);
+    console.log(temp);
+}
