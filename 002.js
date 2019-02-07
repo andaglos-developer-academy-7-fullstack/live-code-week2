@@ -26,3 +26,18 @@ Ketentuan
 =========
 Wajib menggunakan looping!
 */
+
+// var kata = 'abcdef';
+// var kataa = '';
+// for(var i = kata.length -1; i >= 0; i--){
+//     kataa = kataa + kata[i];
+//     console.log(kataa)
+// }
+
+var height = 5;
+var hasil = [];
+var i = 1
+for (var i = 1; i <= height; i++){
+   hasil = hasil + i
+console.log(hasil)
+}
